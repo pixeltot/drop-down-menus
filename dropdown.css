@@ -1,6 +1,62 @@
 <style>
 
+.fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+}
 
+.fa-caret-down:before {
+    content: "";
+}
 
+.dropdown {
+    display: inline;
+    margin-left: 10px;
+}
+.dropdown {
+    position: relative;
+}
 
+.dropdown-toggle {
+    color: #363636;
+    cursor: pointer;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.dropdown-menu li span {
+    color: #898989;
+    font-size: 17px;
+    padding: 0 15px;
+}
+
+.dropdown-menu {
+    font-size: 17px;
+    margin-top: 5px;
+    min-width: 105px;
+}
+
+.dropdown-menu {
+    background-clip: padding-box;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.176);
+    display: none;
+    float: left;
+    font-size: 14px;
+    left: 0;
+    list-style: none outside none;
+    margin: 2px 0 0;
+    min-width: 160px;
+    padding: 5px 0;
+    position: absolute;
+    text-align: left;
+    top: 100%;
+    z-index: 1000;
+}
 </style>
